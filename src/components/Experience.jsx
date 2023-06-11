@@ -6,7 +6,7 @@ import react from "..//assets/react.png";
 import nextjs from "..//assets/nextjs.png";
 import tailwind from "..//assets/tailwind.png";
 
-const Education = () => {
+const Experience = () => {
     const techs = [
         {
             id: 1,
@@ -47,10 +47,10 @@ const Education = () => {
     ]
 
   return (
-    <div name="education" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen">
+    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
             <div>
-                <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">education</p>
+                <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">experience</p>
                 <p className="py-6">technologies i've worked with</p>
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
@@ -68,4 +68,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experience;
