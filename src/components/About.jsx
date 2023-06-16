@@ -11,7 +11,7 @@ const About = () => {
             <br />
             <p className="text-xl">languages: html, css, javascript, python, c#, c++, php.
             <br /> 
-            frameworks/libraries: react, jquery, node.js, nextjs, tailwind. </p>
+            frameworks/libraries: react, jquery, node.js, nextjs, tailwind.</p>
         </div>
     </div>
   );
